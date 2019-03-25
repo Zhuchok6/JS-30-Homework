@@ -80,7 +80,7 @@
       const now = new Date(); //создает объект Date с текущей датой и временем
 
       const seconds = now.getSeconds(); // получает секунды из объекта Date
-      const secondsDegrees = ((seconds / 60) * 360) + 90; //1 градус равен 1 секунде
+      const secondsDegrees = ((seconds / 60) * 360) + 90; 
       secondHand.style.transform = `rotate(${secondsDegrees}deg)`; //вращаем секундную стрелку на 1 градус по часовой стрелке
 
       const mins = now.getMinutes();
